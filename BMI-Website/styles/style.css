@@ -1,0 +1,51 @@
+/* BMI Website */
+/* Menno Wiesenekker */
+/* 233884 */
+/* 01-06-2021 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+ 
+input,label {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.kop, p {
+    color: #4CAF50;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+} 
+
+.radbttn {
+    cursor: pointer;
+}
+.checkbttn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1 {
+    color: #4CAF50;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.overig {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    padding: 10px;
+}

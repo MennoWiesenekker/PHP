@@ -1,0 +1,62 @@
+<!--BMI Website -->
+<!--Menno Wiesenekker -->
+<!--233884 -->
+<!-- 01-06-2021 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Website BMI</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <form action="" method="post" name="bmiform">
+            <h1>BMI Berekenen</h1>
+                    <label class="kop" for="naam">Naam:</label>
+                    <br>
+                    <input type="text" id="naam" name="naam" placeholder="Vul Naam in.">
+                    <br>
+                    <label class="kop" for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Vul Email in.">
+                    <br>
+                    <label class="kop" for="leeftijd">Leeftijd:</label>
+                    <br>
+                    <input type="number" id="leeftijd" name="leeftijd" placeholder="Vul Leeftijd in.">
+                    <br>
+                    <p>Wat is uw geslacht?</p>
+                    <input class="radbttn" type="radio" id="geslacht" name="geslacht" value="Man">
+                    <label for="geslacht">Man</label>
+                    <input class="radbttn" type="radio" id="geslacht" name="geslacht" value="Vrouw">
+                    <label for="geslacht">Vrouw</label>
+                    <input class="radbttn" type="radio" id="geslacht" name="geslacht" value="Anders">
+                    <label for="geslacht">Anders</label>
+                    <br>
+                    <label class="kop" for="lengte">Lengte:</label>
+                    <br>
+                    <input type="float" id="lengte" name="lengte" min=0.30 max=2.60 placeholder="Vul Lengte in M in." required>
+                    <br>
+                    <label class="kop" for="gewicht">Gewicht:</label>
+                    <br>
+                    <input type="number" id="gewicht" name="gewicht" min=2.00 max=300 placeholder="Vul Gewicht in KG in." required>
+                    <br>
+                    <p>Onder welke BMI-categorie denkt u te vallen?</p>
+                    <input class="radbttn" type="radio" id="bmi" name="bmicat" value="Veel te licht" required>
+                    <label for="bmi">Veel te licht</label>
+                    <br>
+                    <input class="radbttn" type="radio" id="bmi" name="bmicat" value="Te licht" required>
+                    <label for="bmi">Te licht</label>
+                    <br>
+                    <input class="radbttn" type="radio" id="bmi" name="bmicat" value="Goed" required>
+                    <label for="bmi">Goed</label>
+                    <br>
+                    <input class="radbttn" type="radio" id="bmi" name="bmicat" value="Te zwaar" required>
+                    <label for="bmi">Te zwaar</label>
+                    <br>
+                    <input class="radbttn" type="radio" id="bmi" name="bmicat" value="Veel te zwaar" required>
+                    <label for="bmi">Veel te zwaar</label>
+                    <br>
+                    <button class="checkbttn" id="check" type="submit" name="submitbmi" value="Verstuur de gegevens">Verstuur de gegevens</button>
+                </form>

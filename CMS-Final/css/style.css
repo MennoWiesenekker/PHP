@@ -1,0 +1,21 @@
+.buttons {
+    background-color: #154c79;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #3996c7;
+    color: white;
+}
+
+.formulier {
+    font-family: Arial, Helvetica, sans-serif;
+}
